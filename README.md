@@ -1,6 +1,6 @@
-C# Egitim Kampı
+--C# Egitim Kampı
 
-FrmStatistics
+--FrmStatistics
 
 ![CsharpEgitimKampi301](https://github.com/user-attachments/assets/b84d98c4-3df3-4468-aa9d-a01231372809)
 
