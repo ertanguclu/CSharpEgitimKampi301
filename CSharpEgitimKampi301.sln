@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35424.110 d17.12
+VisualStudioVersion = 17.12.35424.110
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EntityLayer", "CSharpEgitimKampi301.EntityLayer\CSharpEgitimKampi301.EntityLayer.csproj", "{7DBBD761-A885-4FF6-9048-C848A81AD25F}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.BusinessLayer", "CSharpEgitimKampi301.BusinessLayer\CSharpEgitimKampi301.BusinessLayer.csproj", "{FD0F8818-F3A9-47A9-8322-24AF60752F10}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.PresentationLayer", "CSharpEgitimKampi301.PresentationLayer\CSharpEgitimKampi301.PresentationLayer.csproj", "{E1CEEA1B-5877-48FF-807B-BF8BEE97B873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpEgitimKampi301.EFProject", "CSharpEgitimKampi301.EFProject\CSharpEgitimKampi301.EFProject.csproj", "{53D55E69-52D0-468A-BCAB-162FD657E58A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,8 +35,15 @@ Global
 		{E1CEEA1B-5877-48FF-807B-BF8BEE97B873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1CEEA1B-5877-48FF-807B-BF8BEE97B873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1CEEA1B-5877-48FF-807B-BF8BEE97B873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53D55E69-52D0-468A-BCAB-162FD657E58A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53D55E69-52D0-468A-BCAB-162FD657E58A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53D55E69-52D0-468A-BCAB-162FD657E58A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53D55E69-52D0-468A-BCAB-162FD657E58A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E50FACC6-5CBF-4FD7-A900-8F11AF6E842F}
 	EndGlobalSection
 EndGlobal
