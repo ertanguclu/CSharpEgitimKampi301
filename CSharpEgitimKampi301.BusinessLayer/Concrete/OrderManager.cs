@@ -1,7 +1,6 @@
 ﻿using CSharpEgitimKampi301.BusinessLayer.Abstract;
 using CSharpEgitimKampi301.DataAccessLayer.Abstract;
 using CSharpEgitimKampi301.EntityLayer.Concrete;
-using System;
 using System.Collections.Generic;
 
 namespace CSharpEgitimKampi301.BusinessLayer.Concrete
@@ -27,17 +26,17 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
 
         public Order TGetById(int id)
         {
-            throw new NotImplementedException();
+            return _orderDal.GetById(id);
         }
 
         public void TInsert(Order entity)
         {
-            throw new NotImplementedException();
+            _orderDal.Insert(entity);
         }
 
         public void TUpdate(Order entity)
         {
-            throw new NotImplementedException();
+            _orderDal.Update(entity);
         }
     }
 }
