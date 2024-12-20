@@ -1,6 +1,7 @@
 ﻿using CSharpEgitimKampi301.BusinessLayer.Abstract;
 using CSharpEgitimKampi301.DataAccessLayer.Abstract;
 using CSharpEgitimKampi301.EntityLayer.Concrete;
+using System;
 using System.Collections.Generic;
 
 namespace CSharpEgitimKampi301.BusinessLayer.Concrete
@@ -27,6 +28,11 @@ namespace CSharpEgitimKampi301.BusinessLayer.Concrete
         public Product TGetById(int id)
         {
             return _productDal.GetById(id);
+        }
+
+        public List<Object> TGetProductsWithCategory()
+        {
+            return _productDal.GetProductsWithCategory();
         }
 
         public void TInsert(Product entity)
